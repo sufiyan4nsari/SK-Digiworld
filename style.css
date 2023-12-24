@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navlink{
+    text-decoration: none;
+    margin: 0 12px;
+    color: white;   
+}
+.navlink:hover{
+    font-weight: 600;
+    color: black;
+}
+.navicons{
+    color: white;
+    padding: 0 3px;
+}
+.navicons:hover{
+    color: black;
+}
+.clientimg{
+    transition: all 0.7s ease-in;
+}
+.clientimg:hover{
+    transform: scale(1.5);
+}
+span::before{
+    color: blue;
+    content: "PPC";
+    animation: animate infinite 9s;
+}
+@keyframes animate {
+
+    0%{
+        content: "Lead";
+    }
+    25%{
+        content: "SEO";
+    }
+    50%{
+        content: "Website";
+    }
+    75%{
+        content: "SMM";
+    }
+}
+.banner{
+    align-items: center;
+    padding: 90px;
+}
+.section{
+    align-items: center;
+}
+/* .scrollbtn{
+    border: none;
+    background-color: transparent;
+    color: blue;
+    transform: rotate(-90deg);
+    margin: 72px;
+    text-align: center;
+} */
